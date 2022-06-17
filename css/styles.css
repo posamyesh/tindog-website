@@ -1,0 +1,143 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: white;
+
+}
+/* to change the position of .container-fluid to relative so that we get image relative size to the div ( when we change the
+   image position to absolute it becoming big) to solve this issue we change image section div to relative
+     by creating custom class (the phone image) */
+.customclass{
+    position: relative;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+      
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+#navbarSupportedContent{
+    font-size: 1.15rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-light', sans-serif;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.image-title{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+#features{
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+p{
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.feature-box{
+    padding: 5.5%;
+    text-align: center;
+}
+
+.logos{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.logos:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+   font-weight: bold;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logos{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* media query section to design our web for mobile viewers */
+@media (max-width: 992px){
+    .image-title{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: centers;
+    }
+}
+#cta{
+    text-align: center;
+    padding: 7% 20%;
+    background-color:#ff4c68;
+    color: white;
+    margin-bottom: 2%;
+}
+.footer-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#footer{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.footer-icons{
+    margin: 2% 1%;
+}
